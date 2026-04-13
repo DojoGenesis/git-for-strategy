@@ -14,14 +14,14 @@ Git for Strategy fixes this. **21 skills organized into a 5-phase pipeline** tha
 
 ### Claude Code / Cowork
 ```bash
-git clone https://github.com/TresPies-source/GitForStrategy.git
+git clone https://github.com/DojoGenesis/git-for-strategy.git
 # Add the path to your plugins configuration
 ```
 
 ### Cursor / VS Code / Windsurf
 ```bash
-git clone https://github.com/TresPies-source/GitForStrategy.git
-cp -r GitForStrategy/skills/ ~/.your-editor/skills/
+git clone https://github.com/DojoGenesis/git-for-strategy.git
+cp -r git-for-strategy/skills/ ~/.your-editor/skills/
 ```
 
 > Full setup guides for [Claude Code](setup/claude-code.md) · [Cowork](setup/cowork.md) · [Cursor](setup/cursor.md) · [Windsurf](setup/windsurf.md) · [VS Code](setup/vscode.md) · [Gemini CLI](setup/gemini-cli.md)
@@ -169,6 +169,14 @@ Git for Strategy is the next layer. Memory tells your agent *what* it's working 
 
 ---
 
+## Requirements
+
+Git for Strategy is a skill + template package — no runtime dependencies. You need:
+
+- An AI coding tool that supports skills or slash commands (Claude Code, Cowork, Cursor, VS Code, Windsurf, Gemini CLI)
+- `bash` for the initialization script (`scripts/init-strategy.sh`)
+- Any text editor for manual workspace setup (the scripts just create directories and seed files)
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute skills, seeds, and platform guides.
@@ -179,4 +187,4 @@ MIT
 
 ---
 
-*Built from 25 releases of real software. A [Tres Pies Design](https://github.com/TresPies-source) project.*
+*Built from 25 releases of real software. A [Dojo Genesis](https://github.com/DojoGenesis) project by Tres Pies Design.*
